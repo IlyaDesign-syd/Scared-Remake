@@ -25,8 +25,8 @@ public class Main extends App {
         setAppName("Scared");
         setAppIcon("/textures/exit01.png");
         setAudioSampleRate(8000);
-        setAutoPixelScale(Settings.getBoolean(Settings.AUTO_PIXEL_SCALE, true));
-        setAutoPixelScaleBaseSize(320, 240);
+        setAutoPixelScale(Settings.getBoolean(Settings.AUTO_PIXEL_SCALE, false));
+        setAutoPixelScaleBaseSize(640, 480);
     }
 
     @Override
